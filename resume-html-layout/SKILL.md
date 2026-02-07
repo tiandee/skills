@@ -5,6 +5,10 @@ description: 将 Markdown 简历转为双页 HTML 排版：侧栏+主栏布局�
 
 # 简历 HTML 排版
 
+## 依赖技能
+
+执行本技能时，应**优先使用或对齐** [Anthropic Skills - frontend-design](https://github.com/anthropics/skills/tree/main/frontend-design) 的设计规范与产出质量：配色、字体、布局原则、避免通用 AI 审美等。简历 HTML 为前端视觉产物，生成单文件 HTML 时遵循 frontend-design 的「高设计质量、非通用模板」要求；本技能在此基础上补充**双页 A4、打印、分页**等简历特有约束。
+
 ## 目标
 
 - 从已有 **Markdown 简历** 生成 **单文件 HTML**，便于浏览器打开与「另存为 PDF」。
